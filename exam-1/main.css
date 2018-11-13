@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+@font-face {
+  font-family: "aleo";
+  src: url("fonts/aleo.woff2") format("woff2"), url("fonts/aleo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "aleo", serif;
+}
+body h1, body h2, body h3 {
+  color: #ffffff;
+}
+body p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+}
+body a:hover {
+  transform: scale(1.2);
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 220px;
+  height: 60px;
+  background: #5474fd;
+  display: block;
+  text-decoration: none;
+  padding: 17px 0;
+  line-height: 26px;
+  color: #ffffff;
+  letter-spacing: 0.7px;
+  text-align: center;
+}
+
+.cls-2 {
+  fill: #ffffff;
+}
+
+.cls-3 {
+  fill: #5474fd;
+}
+
+.cls-4 {
+  fill: #ff6363;
+}
+
+.cls-5 {
+  fill: #00a2ff;
+}
+
+.section-inner {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.transparent-box {
+  width: 540px;
+  height: 370px;
+  background: #333333;
+  opacity: 0.9;
+  margin-top: 230px;
+  padding: 50px 30px;
+  box-sizing: border-box;
+}
+.transparent-box p {
+  font-size: 20px;
+  line-height: 26px;
+}
+.transparent-box p:last-of-type {
+  font-size: 16px;
+}
+
+.s1 {
+  background: #047ec2 url("img/img-s1.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 740px;
+}
+.s1 .section-inner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+.s1 .section-inner h1 {
+  font: bold 48px "Josefin Sans", sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 6px;
+}
+.s1 .section-inner p {
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 6px;
+  margin: 0 0 50px;
+}
+.s1 .section-inner p:last-of-type {
+  margin: 117px 0 16px;
+}
+.s1 .section-inner .search-form {
+  display: flex;
+  justify-content: center;
+}
+.s1 .section-inner [type=text] {
+  box-sizing: border-box;
+  width: 500px;
+  height: 60px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 3px;
+}
+.s1 .section-inner button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 150px;
+  height: 60px;
+  border: 2px solid white;
+  margin: 0;
+  background: #5474fd;
+  text-align: center;
+  color: white;
+}
+.s1 .section-inner button:after {
+  content: url("img/search.png");
+  margin-left: 18px;
+}
+
+header {
+  background: #5474fd;
+  min-height: 80px;
+}
+header a:hover {
+  text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+}
+header .section-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+header .logo {
+  font: bold 24px "Josefin Sans", sans-serif;
+  color: #ffffff;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul a {
+  margin-left: 40px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: #ffffff;
+}
+
+.s2 {
+  background: #403a39 url("img/img-s2.jpg") no-repeat;
+  background-size: cover;
+  min-height: 685px;
+}
+.s2 .section-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 685px;
+}
+.s2 .section-inner .text-s2 {
+  width: 540px;
+}
+.s2 .section-inner .text-s2 h2 {
+  margin-bottom: 56px;
+}
+.s2 .section-inner .text-s2 p {
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin: 36px 0;
+}
+.s2 .section-inner .text-s2 a {
+  margin-top: 50px;
+}
+.s2 .section-inner .images-s2 {
+  width: 475px;
+}
+.s2 .section-inner .images-s2 img:first-child {
+  float: left;
+}
+.s2 .section-inner .images-s2 img:last-child {
+  float: right;
+  margin-top: 5px;
+}
+
+.s3 {
+  background: #333333;
+  min-height: 336px;
+}
+.s3 .section-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 336px;
+  background: url("img/arc.png") no-repeat 46% 23%;
+}
+.s3 .section-inner div {
+  margin: 0 87px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.s3 .section-inner div svg {
+  background: #333333;
+  border: solid 5px #333333;
+}
+
+.s4 {
+  background: #665582 url("img/img-s4.jpg") no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1px;
+}
+
+.s5 {
+  background: #e6712a url("img/img-s5.jpg") no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1px;
+}
+.s5 .section-inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.s6 {
+  background: #2a2c2d url("img/img-s6.jpg") no-repeat;
+  background-size: cover;
+  min-height: 730px;
+  padding: 1px;
+}
+.s6 .section-inner {
+  display: flex;
+  justify-content: center;
+}
+.s6 h2 {
+  text-align: center;
+  margin: 126px 0 93px;
+}
+.s6 .sam-image {
+  background: #000;
+}
+.s6 .sam-text {
+  background: #333333;
+  padding: 42px;
+}
+.s6 .sam-text h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  margin: 0 0 15px;
+}
+.s6 .sam-text p {
+  margin: 0;
+  line-height: 26px;
+}
+.s6 .sam-text p::first-letter {
+  color: #00a2ff;
+}
+
+footer {
+  background: #232323;
+  min-height: 268px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+footer h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 6px;
+  margin: 120px 0 12px;
+}
+footer p {
+  font-weight: normal;
+}
+footer ul {
+  margin-top: 26px;
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+}
+footer a {
+  width: 20px;
+  height: 20px;
+  background: url("img/socials.png") no-repeat center;
+  display: block;
+  margin-right: 10px;
+}
+footer .facebook {
+  background-position: -3% center;
+}
+footer .twitter {
+  background-position: 21% center;
+}
+footer .linkedin {
+  background-position: 48% center;
+}
+footer .pinterest {
+  background-position: 101% center;
+}
+footer .youtube {
+  background-position: 75% center;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
